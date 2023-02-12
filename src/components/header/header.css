@@ -13,6 +13,10 @@
     max-width: 1024px;
 margin: 20px 0 100px 0;
 }
+.headerContainer.listMode{
+    margin: 20px 0 100px 0;
+
+}
 .headerList{
     display: flex;
     gap: 40px;
@@ -94,9 +98,15 @@ margin: 20px 0 100px 0;
     top: 50px;
 }
 
+.date {
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+  }
 .options{
     
     position: absolute;
+    top: 50px;
     background-color: white;
     color:gray;
     border-radius: 5px;
@@ -136,3 +146,17 @@ box-shadow: 1px -6px 22px 0px rgba(8,22,214,1);
     border: none;
     border-radius: 5px ;
 }
+
+.optionCounterButton:disabled{
+  cursor: not-allowed;
+ 
+
+}
+
+.optionCounterButton:disabled:hover{
+    background-color: red;
+    opacity: 1;
+    color: white;
+    border: none;
+    border-radius: 5px ;
+  }
