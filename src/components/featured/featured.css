@@ -16,9 +16,23 @@
     height: 250px;
 }
 
+.featuredItem:hover{
+    opacity: 0.7;
+    -webkit-box-shadow: 3px -5px 5px 0px rgba(17,1,115,1);
+    -moz-box-shadow: 3px -5px 5px 0px rgba(17,1,115,1);
+    box-shadow: 3px -5px 5px 0px rgba(17,1,115,1);
+}
+
 .featuredImg{
     width: 100%;
     object-fit: cover;
+}
+
+.featuredImg:hover{
+    opacity: 0.7;
+    -webkit-box-shadow: 3px -5px 5px 0px rgba(17,1,115,1);
+-moz-box-shadow: 3px -5px 5px 0px rgba(17,1,115,1);
+box-shadow: 3px -5px 5px 0px rgba(17,1,115,1);
 }
 .featuredTitles{
     position: absolute;
