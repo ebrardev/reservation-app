@@ -110,9 +110,11 @@ margin: 20px 0 100px 0;
     background-color: white;
     color:gray;
     border-radius: 5px;
+    z-index: 2;
     -webkit-box-shadow: 1px -6px 22px 0px rgba(8,22,214,1);
 -moz-box-shadow: 1px -6px 22px 0px rgba(8,22,214,1);
 box-shadow: 1px -6px 22px 0px rgba(8,22,214,1);
+
 }
 .optionItem{
     width: 200px;
