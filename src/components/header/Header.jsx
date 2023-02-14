@@ -113,6 +113,7 @@ const Header = ({ type }) => {
                     ranges={date}
                     className="date"
                     minDate={new Date()}
+                    
                   />
                 )}
               </div>
